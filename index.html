@@ -1,143 +1,95 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>콘텐츠 급수 정화 - 마르지 않는 1급수 백링크 주스 공급 서비스</title>
-  <style>
-    
-    :root {
-      --bg: #0d1117;
-      --fg: #ffffff;
-      --dim: #8b949e;
-      --accent: #58a6ff;
-      --card-bg: rgba(22, 27, 34, 0.8);
-      --border: rgba(48, 54, 61, 0.8);
-      --font: 'Inter', -apple-system, sans-serif;
-    }
-    body {
-      background: var(--bg);
-      color: var(--fg);
-      font-family: var(--font);
-      margin: 0;
-      padding: 0;
-      line-height: 1.65;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }
-    .hero {
-      padding: 4rem 2rem;
-      background: radial-gradient(circle at top right, rgba(88, 166, 255, 0.08), transparent);
-      border-bottom: 1px solid var(--border);
-      text-align: center;
-      border-radius: 16px;
-      margin-bottom: 2.5rem;
-    }
-    .hero-title {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: var(--fg);
-      margin: 0 0 1rem 0;
-      letter-spacing: -0.03em;
-    }
-    .hero-subtitle {
-      font-size: 1.1rem;
-      color: var(--dim);
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-    }
-    .card h2 {
-      margin-top: 0;
-      color: var(--accent);
-      font-size: 1.4rem;
-      font-weight: 700;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    }
-    .link-t1 {
-      color: var(--accent);
-      text-decoration: underline;
-      font-weight: bold;
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 2rem 0;
-      text-align: center;
-      color: var(--dim);
-      font-size: 0.85rem;
-    }
-      
-    .post-link {
-      display: block;
-      color: var(--accent);
-      text-decoration: none;
-      margin-bottom: 0.8rem;
-      font-size: 1.05rem;
-    }
-    .post-link:hover {
-      text-decoration: underline;
-    }
-    .testimonial-box {
-      border-left: 3px solid var(--accent);
-      background: rgba(255, 255, 255, 0.02);
-      padding: 1rem 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .reviewer-name {
-      display: block;
-      font-size: 0.85rem;
-      color: var(--dim);
-      margin-top: 0.5rem;
-      text-align: right;
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>트래픽 필터링 및 봇 트래픽 정화 | 워터서버</title>
+<meta name="description" content="SEO 트래픽 정화 시스템. 가짜 봇 트래픽 필터링, 어뷰징 트래픽 차단, 순수 진성 유저 유입 및 전환율 방어 가이드.">
+<link rel="canonical" href="https://water-server.pages.dev">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}:root{--p:#0f172a;--g:#38bdf8;--a:#818cf8;--t:#f8fafc}body{font-family:'Noto Sans KR',sans-serif;background:var(--p);color:var(--t);line-height:1.8}a{color:inherit;text-decoration:none}
+.nv{position:fixed;top:0;left:0;right:0;z-index:99;background:rgba(15,23,42,.97);backdrop-filter:blur(10px);padding:.8rem 2rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(56,189,248,.2)}.nl{font-size:1rem;font-weight:800;color:var(--g)}.nm{display:flex;gap:1.5rem;list-style:none}.nm a{font-size:.82rem;color:rgba(248,250,252,.6);transition:.2s}.nm a:hover{color:var(--g)}
+.hero{padding:8rem 2rem 4rem;text-align:center;background:linear-gradient(160deg,#0f172a,#1e3a8a,#0f172a)}.hb2{display:inline-block;padding:.3rem 1rem;border:1px solid var(--g);border-radius:99px;font-size:.68rem;color:var(--g);letter-spacing:.1em;margin-bottom:1rem}
+.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:900;line-height:1.2;margin-bottom:1rem}.hero h1 em{font-style:normal;color:var(--g)}
+.hsub{font-size:.9rem;color:rgba(248,250,252,.6);max-width:480px;margin:0 auto}
+.w{max-width:860px;margin:0 auto;padding:4rem 2rem}.tg{font-size:.68rem;letter-spacing:.12em;color:var(--g);margin-bottom:.5rem}.st{font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:800;margin-bottom:.6rem}.sd{color:rgba(248,250,252,.6);font-size:.88rem;margin-bottom:2rem}
+.article{background:rgba(255,255,255,.02);border:1px solid rgba(56,189,248,.2);border-radius:1rem;padding:2.5rem;margin-bottom:2rem}
+.article h2{font-size:1.15rem;font-weight:800;color:var(--g);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid rgba(56,189,248,.2)}
+.article h3{font-size:.95rem;font-weight:700;color:var(--a);margin:1.5rem 0 .5rem}
+.article p{font-size:.86rem;color:rgba(248,250,252,.8);margin-bottom:.8rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;margin:2rem 0}
+.card{background:rgba(255,255,255,.03);border:1px solid rgba(56,189,248,.2);border-radius:.8rem;padding:1.5rem;transition:.3s}.card:hover{border-color:var(--a);box-shadow:inset 0 0 15px rgba(56,189,248,.1)}.icon{font-size:1.8rem;margin-bottom:.6rem}.card h3{font-size:.92rem;font-weight:700;color:var(--g);margin-bottom:.4rem}.card p{font-size:.8rem;color:rgba(248,250,252,.6)}
+footer{padding:1.5rem;text-align:center;border-top:1px solid rgba(56,189,248,.2);font-size:.72rem;color:rgba(248,250,252,.4)}
+</style>
+<meta property="og:image" content="og-image.svg">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-  <div class="container">
-    
-      <div class="hero">
-        <h1 class="hero-title">마르지 않는 1급수 백링크 주스 공급 서비스</h1>
-        <p class="hero-subtitle">// SYSTEM ANALYTICS &amp; SEO CORE INTEGRATION</p>
-      </div>
+<nav class="nv"><div class="nl">💧 워터서버</div><ul class="nm"><li><a href="#purify">정화시스템</a></li><li><a href="#bot">봇차단</a></li><li><a href="#clean">진성유저</a></li></ul></nav>
 
-    <section class="card">
-      <h2>소개 및 비전</h2>
-      <p>본 포털은 콘텐츠 급수 정화와 관련해 소비자들에게 절대적으로 필요한 정보를 100% 정찰제 가격 정보와 예약 에티켓 기준으로 분석하여 서비스합니다.</p>
-      <p>마르지 않는 1급수 백링크 주스 공급 서비스를 찾는 비즈니스 바이어나 개인 고객들이 현명하고 합리적인 조건 하에 안심하고 플레이스를 선택하실 수 있도록 가이드를 성실히 업데이트합니다.</p>
-    </section>
+<section class="hero">
 
-    
-    <!-- T2 Supporting PBN Layout Content (Links list to posts) -->
-    <div class="grid">
-      <div class="card">
-        <h2>📝 최신 전문 포스팅 목록</h2>
-        <a href="posts/minor-001.html" class="post-link">📄 [마이너 가이드] 마르지 않는 1급수 백링크 주스 공급 서비스 실시간 만족도 분석 리포트</a>
-        <a href="posts/minor-002.html" class="post-link">📄 [비교 꿀팁] 실패를 예방하는 마르지 않는 1급수 백링크 주스 공급 서비스 예약 시 3대 체크리스트</a>
-        <a href="posts/major-003.html" class="post-link">📄 [종합 검증] 마르지 않는 1급수 백링크 주스 공급 서비스 완벽 비교 가이드 및 투명성 검증 (백링크 포함)</a>
-      </div>
-      <div class="card">
-        <h2>🌐 1:1 도메인 메타포 해설</h2>
-        <p>이 사이트는 로컬 예약 파이프라인의 안전성과 투명한 정보 검증을 주도하는 소셜 인프라 PBN 매칭 페이지로 작동하고 있습니다.</p>
-      </div>
-    </div>
-    
+<!-- SEO Visual 1: 마르지 않는 1급수 백링크 주스 공급 서비스 Editorial Apple Hero -->
+<div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 —  마르지 않는 1급수 백링크 주스 공급 서비스" 
+     style="width:100%;padding:64px 24px;background:#faf9f6;border-bottom:1px solid #e5e5e0;text-align:left;margin:32px 0">
+  <div style="max-width:800px;margin:0 auto">
+    <div style="font-family:serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3em;color:#8a7355;margin-bottom:16px">— EDITORIAL PROFILES</div>
+    <div style="font-size:3.5em;line-height:1.1;font-weight:400;font-family:serif;color:#1c1c1e;letter-spacing:-0.03em;margin-bottom:16px">마르지 않는 1급수 백링크 주스 공급 서비스</div>
+    <p style="font-size:1.05rem;line-height:1.6;color:#1c1c1e;opacity:0.85;max-width:600px">신뢰할 수 있는 서비스에 관한 독립적이고 깊이 있는 정보를 제공합니다.</p>
   </div>
-  <footer>
-    <p>&copy; 2026 water-server.store. All Rights Reserved.</p>
-  </footer>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"마르지 않는 1급수 백링크 주스 공급 서비스","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+<div class="hb2">✦ SEO 트래픽 정화 솔루션 ✦</div>
+<h1>허수 트래픽 필터링<br><em>순수 진성 유저</em> 추출</h1>
+<p class="hsub">이탈률을 높이는 악성 봇 트래픽을 차단(정수)하여<br>순도 높은 전환 트래픽만을 머니사이트로 흘려보냅니다.</p>
+</section>
+
+<!-- SEO Visual 2: 콘텐츠 급수 정화 Cardless Editorial List -->
+<div class="seo-visual-cards" role="img" aria-label="마르지 않는 1급수 백링크 주스 공급 서비스 콘텐츠 급수 정화 — 신뢰할 수 있는 서비스" 
+     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">SEO 대책</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마르지 않는 1급수 백링크 주스 공급 서비스</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">집객 지원</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마르지 않는 1급수 백링크 주스 공급 서비스</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">분석</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마르지 않는 1급수 백링크 주스 공급 서비스</span>
+  </div>
+</div>
+
+<section class="w" id="purify">
+<div class="article">
+<h2>💧 트래픽에도 '수질'이 있습니다</h2>
+<p>트래픽이 아무리 많아도 이탈률(Bounce Rate)이 90%에 달하고 체류 시간이 10초 미만이라면 구글은 당신의 사이트를 저품질로 인식합니다. 워터서버는 트래픽 펌핑 봇, 스크래핑 크롤러 등 더러운 트래픽을 1차 필터에서 걸러냅니다.</p>
+<h3>나쁜 트래픽의 증상</h3>
+<p>✓ 알 수 없는 러시아/중국 리퍼럴(Referral) 트래픽 급증<br>
+✓ Direct 트래픽이 비정상적으로 높고 전환은 0인 상태<br>
+✓ 대역폭 과다 소진 및 서버 다운 현상</p>
+</div>
+</section>
+
+<section class="w" id="bot" style="padding-top:0">
+<div class="tg">■ 3단계 정화 필터</div>
+<h2 class="st">악성 봇 완벽 차단 시스템</h2>
+<div class="grid">
+<div class="card"><div class="icon">🛡️</div><h3>WAF 필터링</h3><p>Cloudflare 웹 방화벽 수준에서 알려진 악성 봇 핑거프린트와 프록시 IP를 원천 차단.</p></div>
+<div class="card"><div class="icon">🚫</div><h3>서버사이드 차단</h3><p>.htaccess 및 Nginx 설정을 통해 쓰레기 리퍼럴 도메인 및 불량 User-Agent 접근 제한.</p></div>
+<div class="card"><div class="icon">🚰</div><h3>트래픽 클렌징</h3><p>진성 유저(인간)만 구별해내는 챌린지 룰 도입으로 순도 99%의 전환 유저만 안전하게 통과.</p></div>
+</div>
+
+<div class="seo-visual-divider" role="separator" aria-label="마르지 않는 1급수 백링크 주스 공급 서비스 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
+</section>
+
+<footer><p>💧 워터서버 | SEO 트래픽 필터링 및 악성 봇 차단</p><p style="margin-top:.3rem">© 2025 water-server. All rights reserved.</p></footer>
 </body>
 </html>

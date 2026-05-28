@@ -1,74 +1,462 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>1급수 백링크 공급 서비스 | 프리미엄 링크 정수기</title>
-<meta name="description" content="백링크를 1급수/2급수/3급수로 분류하고 지속적인 신뢰 링크 공급을 정수기 구독 서비스로 비유.">
-<meta name="keywords" content="고품질 백링크 공급 서비스">
-<meta property="og:title" content="1급수 백링크 공급 서비스 | 프리미엄 링크 정수기">
-<meta property="og:description" content="백링크를 1급수/2급수/3급수로 분류하고 지속적인 신뢰 링크 공급을 정수기 구독 서비스로 비유.">
-<meta property="og:url" content="https://water-server.store/">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://water-server.store/">
-<style>
-:root{--primary:#4a9eff;--accent:#7bc8ff;--bg:#0a0f1e;--bg2:#0f1628;--bg3:#141d35;--text:#d0d8f0;--muted:#6070a0;--border:#1e2840;--radius:10px}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
-a{color:var(--primary);text-decoration:none}a:hover{color:var(--accent)}
-header{position:sticky;top:0;z-index:100;background:rgba(10,15,30,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5%}
-.hi{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1200px;margin:0 auto}
-.logo{font-size:1.15rem;font-weight:800;color:var(--accent)}
-.logo small{color:var(--muted);font-weight:400;font-size:.78rem;margin-left:6px}
-nav a{font-size:.86rem;color:var(--muted);margin-left:20px;transition:.2s}
-nav a:hover{color:var(--accent)}
-.hero{min-height:60vh;display:flex;align-items:center;padding:72px 5%;background:linear-gradient(135deg,#0a0f1e,#141d35);position:relative}
-.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(74,158,255,.08),transparent 70%)}
-.hc{max-width:800px;position:relative;z-index:1}
-.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(74,158,255,.12);border:1px solid rgba(74,158,255,.25);border-radius:50px;padding:4px 12px;font-size:.78rem;color:var(--primary);margin-bottom:20px}
-.hc h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.2;letter-spacing:-.5px;margin-bottom:14px}
-.hc h1 em{color:var(--accent);font-style:normal}
-.hsub{font-size:.95rem;color:var(--muted);margin-bottom:28px;line-height:1.8}
-section{padding:64px 5%}
-.si{max-width:1200px;margin:0 auto}
-.sh{text-align:center;margin-bottom:44px}
-.stag{display:inline-block;background:rgba(74,158,255,.1);color:var(--primary);font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:50px;letter-spacing:1px;margin-bottom:10px}
-.sh h2{font-size:clamp(1.4rem,2.8vw,2rem);font-weight:900}
-.sh p{color:var(--muted);margin-top:8px;font-size:.9rem}
-.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
-.post{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:.3s;position:relative;overflow:hidden}
-.post::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent))}
-.post:hover{border-color:var(--primary);transform:translateY(-3px)}
-.ptag{font-size:.76rem;color:var(--primary);font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
-.post h3{font-size:1rem;font-weight:800;margin-bottom:10px;line-height:1.4}
-.post h3 a{color:var(--text)}
-.post h3 a:hover{color:var(--accent)}
-.post p{font-size:.86rem;color:var(--muted);line-height:1.7}
-.pdate{font-size:.78rem;color:var(--muted);margin-top:12px}
-.article{max-width:800px;margin:0 auto;padding:64px 5%}
-.article h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;margin-bottom:20px;line-height:1.3}
-.article .meta{color:var(--muted);font-size:.85rem;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
-.article h2{font-size:1.3rem;font-weight:800;margin:32px 0 14px;color:var(--accent)}
-.article h3{font-size:1.1rem;font-weight:700;margin:24px 0 10px}
-.article p{font-size:.95rem;color:var(--text);line-height:1.9;margin-bottom:18px}
-.article ul{padding-left:1.5em;margin-bottom:18px}
-.article li{margin-bottom:8px;font-size:.93rem;color:var(--text)}
-.article blockquote{border-left:3px solid var(--primary);padding:12px 20px;background:var(--bg2);border-radius:0 8px 8px 0;margin:24px 0;color:var(--muted);font-style:italic}
-footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 5% 20px;text-align:center}
-.fbot{font-size:.8rem;color:var(--muted)}
-@media(max-width:768px){nav{display:none}}
-</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"1급수 백링크 공급 서비스 | 프리미엄 링크 정수기","description":"백링크를 1급수/2급수/3급수로 분류하고 지속적인 신뢰 링크 공급을 정수기 구독 서비스로 비유.","url":"https://water-server.store"}</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1급수 무균 백링크 워터 디스펜서 — TOKYO WATER</title>
+  <meta name="description" content="스팸 독소가 전혀 검출되지 않는 청정 1급수 백링크 주스를 공급합니다. 구글 알고리즘이 안심하고 들이키는 고순도 도메인 지수 필터링 서비스.">
+  <link rel="canonical" href="https://water-server.store/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="1급수 무균 백링크 워터 디스펜서 — TOKYO WATER">
+  <meta property="og:description" content="스팸 독소가 전혀 검출되지 않는 청정 1급수 백링크 주스를 공급합니다. 구글 알고리즘이 안심하고 들이키는 고순도 도메인 지수 필터링 서비스.">
+  <meta property="og:url" content="https://water-server.store/">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700;900&family=Inter:wght@300;400;600&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-white: #ffffff;
+      --bg-light: #f4f8fa;
+      --text-main: #0b131a;
+      --text-muted: #536471;
+      --accent-aqua: #0ea5e9;
+      --accent-deep: #0369a1;
+      --border-thin: 0.5px solid #0b131a;
+      --border-soft: 0.5px solid rgba(11, 19, 26, 0.1);
+      --font-swiss: 'Outfit', 'Inter', sans-serif;
+      --font-kr: 'Noto Sans KR', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-white);
+      color: var(--text-main);
+      font-family: var(--font-swiss), var(--font-kr);
+      line-height: 1.7;
+      letter-spacing: -0.02em;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    /* Swiss Minimal Grid Line Header */
+    header {
+      border-bottom: var(--border-thin);
+      padding: 30px 0;
+      background: var(--bg-white);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: 900;
+      font-size: 1.2rem;
+      letter-spacing: -0.04em;
+      color: var(--text-main);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo::before {
+      content: '';
+      display: inline-block;
+      width: 12px; height: 12px;
+      background: var(--accent-aqua);
+      border-radius: 50%;
+    }
+
+    nav {
+      display: flex;
+      gap: 40px;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 100px 0 60px 0;
+      border-bottom: var(--border-thin);
+    }
+
+    .swiss-code {
+      font-family: monospace;
+      font-size: 0.72rem;
+      color: var(--accent-deep);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 3.6rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+      margin-bottom: 30px;
+    }
+
+    h1 span {
+      color: var(--accent-aqua);
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 50px;
+      margin-top: 40px;
+    }
+
+    .hero-desc {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+
+    .btn-minimal {
+      display: inline-block;
+      border: var(--border-thin);
+      color: var(--text-main);
+      padding: 12px 30px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 600;
+      transition: all 0.3s;
+      text-align: center;
+    }
+
+    .btn-minimal:hover {
+      background: var(--text-main);
+      color: var(--bg-white);
+    }
+
+    /* Stats Grid */
+    .section {
+      padding: 80px 0;
+      border-bottom: var(--border-soft);
+    }
+
+    .section.dark {
+      background-color: var(--bg-light);
+      border-bottom: var(--border-thin);
+    }
+
+    .grid-vitals {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background-color: rgba(11, 19, 26, 0.1);
+      border: var(--border-soft);
+      margin-top: 40px;
+    }
+
+    .vital-box {
+      background-color: var(--bg-white);
+      padding: 30px;
+    }
+
+    .vital-num {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: var(--text-main);
+      line-height: 1.1;
+    }
+
+    .vital-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 10px;
+      letter-spacing: 0.05em;
+    }
+
+    /* Process Table */
+    .process-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 40px;
+    }
+
+    .process-table th {
+      text-align: left;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--text-muted);
+      padding: 15px 0;
+      border-bottom: 1.5px solid var(--text-main);
+    }
+
+    .process-table td {
+      padding: 20px 0;
+      border-bottom: var(--border-soft);
+      font-size: 0.88rem;
+    }
+
+    .process-title {
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .process-desc {
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+
+    /* Water Dispenser Pricing */
+    .price-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .price-box {
+      border: var(--border-soft);
+      background: var(--bg-white);
+      padding: 45px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .price-box.premium {
+      border-color: var(--text-main);
+    }
+
+    .price-header h3 {
+      font-size: 1.3rem;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .price-val {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: var(--accent-deep);
+      margin-bottom: 25px;
+    }
+
+    .price-list {
+      list-style: none;
+      margin-bottom: 40px;
+      font-size: 0.84rem;
+      color: var(--text-muted);
+    }
+
+    .price-list li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .price-list li::before {
+      content: '';
+      display: inline-block;
+      width: 5px; height: 5px;
+      background: var(--accent-aqua);
+      border-radius: 50%;
+    }
+
+    /* Footer */
+    footer {
+      padding: 80px 0 50px 0;
+      text-align: left;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 80px;
+      border-top: var(--border-soft);
+      padding-top: 40px;
+    }
+
+    .footer-links a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 700;
+      margin-right: 20px;
+      font-size: 0.75rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero-meta { grid-template-columns: 1fr; gap: 20px; }
+      .grid-vitals { grid-template-columns: 1fr 1fr; }
+      .price-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+      nav { display: none; }
+    }
+  </style>
 </head>
 <body>
-<header><div class="hi"><div class="logo">1급수 백링크 공급<small>고품질 백링크 공급 서비스</small></div><nav><a href="about.html">소개</a><a href="post1.html">최신글1</a><a href="post2.html">최신글2</a><a href="post3.html">최신글3</a></nav></div></header>
-<section class="hero"><div class="hc"><div class="badge">📝 고품질 백링크 공급 서비스</div><h1><em>1급수 백링크</em> 공급 서비스</h1><p class="hsub">마르지 않는 고품질 백링크 주스. 오염된 링크는 걸러내고 깨끗한 신뢰 링크만 공급합니다.</p><div class="acts"><a href="post1.html" style="background:linear-gradient(135deg,#4a9eff,#7bc8ff);color:#000;padding:14px 28px;border-radius:8px;font-weight:800">최신 포스트 보기</a></div></div></section>
-<section><div class="si"><div class="sh"><div class="stag">LATEST POSTS</div><h2>최신 포스트</h2><p>고품질 백링크 공급 서비스 관련 최신 정보를 업데이트합니다.</p></div>
-<div class="posts">
-<div class="post"><div class="ptag">링크 품질</div><h3><a href="post1.html">백링크 수질 검사: 1급수·2급수·3급수 구분법</a></h3><p>고품질 백링크 공급 서비스 관련 심층 분석. 실제 데이터와 경험을 바탕으로 한 실용적인 가이드입니다.</p><div class="pdate">2025년 최신 업데이트</div></div>
-<div class="post"><div class="ptag">링크 정화</div><h3><a href="post2.html">오염된 백링크 정화: 링크 디톡스 완전 가이드</a></h3><p>고품질 백링크 공급 서비스 관련 심층 분석. 실제 데이터와 경험을 바탕으로 한 실용적인 가이드입니다.</p><div class="pdate">2025년 최신 업데이트</div></div>
-<div class="post"><div class="ptag">링크 빌딩</div><h3><a href="post3.html">지속 공급 시스템: 마르지 않는 백링크 파이프라인 구축</a></h3><p>고품질 백링크 공급 서비스 관련 심층 분석. 실제 데이터와 경험을 바탕으로 한 실용적인 가이드입니다.</p><div class="pdate">2025년 최신 업데이트</div></div>
-</div></div></section>
 
-<footer><div style="max-width:1200px;margin:0 auto"><div class="fbot"><p>© 2025 1급수 백링크 공급 서비스 | 프리미엄 링크 정수기. 백링크를 1급수/2급수/3급수로 분류하고 지속적인 신뢰 링크 공급을 정수기 구독 서비스로 비유....</p></div></div></footer>
-</body></html>
+  <header>
+    <div class="container nav-wrap">
+      <a href="/" class="logo">TOKYO WATER</a>
+      <nav>
+        <a href="#vitals">Vitals</a>
+        <a href="#filtration">Filtration</a>
+        <a href="#dispenser">Dispenser</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="hero">
+        <div class="swiss-code">Purity Nodule Index: 0.00ppm</div>
+        <h1>1급수 무균 필터링<br><span>백링크 워터</span> 공급.</h1>
+        
+        <div class="hero-meta">
+          <p class="hero-desc">구글 알고리즘이 들이키는 무균수 백링크 디스펜서. 스팸 혈전이나 독소 링크가 전혀 검출되지 않는, 완전무결하게 필터링된 1급수 도메인의 지수(Link Juice)만을 정밀 공급하여 당신의 도메인을 깨끗하게 정화시킵니다.</p>
+          <div>
+            <a href="#dispenser" class="btn-minimal">무균수 렌탈 의뢰</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section dark" id="vitals">
+      <div class="container">
+        <h2>Water Quality Vitals</h2>
+        <p style="color: var(--text-muted); font-weight: 300;">구글 검색 스파이더가 보증하는 백링크 수질 검사 보고서</p>
+        
+        <div class="grid-vitals">
+          <div class="vital-box">
+            <div class="vital-num">0.00</div>
+            <div class="vital-title">Spam PPM</div>
+          </div>
+          <div class="vital-box">
+            <div class="vital-num">100%</div>
+            <div class="vital-title">Pure Organic</div>
+          </div>
+          <div class="vital-box">
+            <div class="vital-num">98.2</div>
+            <div class="vital-title">Domain Flow</div>
+          </div>
+          <div class="vital-box">
+            <div class="vital-num">24 Hrs</div>
+            <div class="vital-title">Live Pumping</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="filtration">
+      <div class="container">
+        <h2>Filtration Protocols</h2>
+        <table class="process-table">
+          <thead>
+            <tr>
+              <th style="width: 30%;">Filter Node</th>
+              <th style="width: 70%;">Surgical Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="process-title">01 / Reverse Osmosis</td>
+              <td class="process-desc">역삼투압 필터 시스템을 구동하여, 러시아/중국발 스팸 네트워크의 잔재 독소를 99.9% 걸러냅니다.</td>
+            </tr>
+            <tr>
+              <td class="process-title">02 / UV Sterilization</td>
+              <td class="process-desc">구글 디인덱싱 및 알고리즘 과최적화 바이러스를 UV 살균하여, 주스 수치를 완벽한 무해성 상태로 유지합니다.</td>
+            </tr>
+            <tr>
+              <td class="process-title">03 / Essential Mineral</td>
+              <td class="process-desc">E-E-A-T 구조화 스키마 영양소를 주스에 첨가하여, 크롤봇이 유입 경로를 통해 풍부한 도메인 신뢰도를 흡수하게 합니다.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section dark" id="dispenser">
+      <div class="container">
+        <h2>Dispenser Budget</h2>
+        <div class="price-grid">
+          <div class="price-box">
+            <div class="price-header">
+              <h3>Regular Clean</h3>
+              <div class="price-val">₩590,000</div>
+            </div>
+            <ul class="price-list">
+              <li>1급수 필터 백링크 30개 공급</li>
+              <li>Robots / XML 수질 모니터링</li>
+              <li>30일 무상 필터 교체 및 스케일링</li>
+              <li>IndexNow 상시 투약 연동</li>
+            </ul>
+            <a href="#" class="btn-minimal">일반 렌탈 신청</a>
+          </div>
+          <div class="price-box premium">
+            <div class="price-header">
+              <h3>Premium Sterile</h3>
+              <div class="price-val">₩1,290,000</div>
+            </div>
+            <ul class="price-list">
+              <li>1급수 백링크 80개 무제한 펌핑</li>
+              <li>E-E-A-T 고신용 미네랄 수혈 포함</li>
+              <li>구글 서치콘솔 라운드로빈 90일 정화 보증</li>
+              <li>24시간 긴급 스팸 차단 디스펜서</li>
+            </ul>
+            <a href="#" class="btn-minimal" style="background: var(--text-main); color: var(--bg-white);">프리미엄 신청</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <p style="font-weight: 900; font-size: 0.85rem; margin-bottom: 10px;">TOKYO WATER LAB</p>
+        <p style="color: var(--text-muted); font-size: 0.78rem;">도쿄 워터 — 백링크 및 도메인 지수 정밀 정수 처리 시스템. 본 사이트는 SEO 상업예술 템플릿입니다.</p>
+      </div>
+      <div>
+        <div class="footer-links" style="margin-bottom: 15px;">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.72rem;">© 2026 Tokyo Water Lab. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

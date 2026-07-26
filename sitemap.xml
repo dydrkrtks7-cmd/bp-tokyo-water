@@ -2,51 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://water-server.store/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://water-server.store/about.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://water-server.store/blog-1.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://water-server.store/blog-2.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://water-server.store/blog-3.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://water-server.store/post1.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://water-server.store/post2.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://water-server.store/post3.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/field_note-001-1n8sbza.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/field_note-001-t8hleg.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://water-server.store/posts/field_note-002-1juwl9z.html</loc>
@@ -61,8 +73,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://water-server.store/posts/field_note-004-12b3f30.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://water-server.store/posts/field_note-004-aj94ip.html</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/field_note-004-dt7kok.html</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -79,8 +103,56 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://water-server.store/posts/guide-003-7qsu5j.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://water-server.store/posts/guide-003-aj94ip.html</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/guide-003-ctak3v.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/guide-005-1a4svam.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/guide-005-joid43.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/major_compare-002-16gklqp.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/major_compare-002-d4mo9z.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/major_compare-005-1b20xo3.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/major_compare-005-1vzoia7.html</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -97,14 +169,62 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://water-server.store/posts/myth-002-185o7em.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/myth-002-9c669q.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://water-server.store/posts/myth-002-aj94ip.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://water-server.store/posts/myth-004-13fwi7w.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/myth-004-nbyhyo.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/qa-001-52xpgp.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://water-server.store/posts/qa-001-aj94ip.html</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/qa-001-decvjn.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/qa-003-1879jkw.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://water-server.store/posts/qa-003-j8g0ux.html</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

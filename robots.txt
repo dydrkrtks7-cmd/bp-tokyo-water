@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://water-server.store/sitemap.xml
+Sitemap: https://water-server.store/sitemap-pages.xml
 Sitemap: https://water-server.store/sitemap-index.xml

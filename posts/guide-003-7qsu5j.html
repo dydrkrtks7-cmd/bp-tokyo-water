@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>소스코드 끝자락에서 끌어올린 보스 세 마리, 왜 출시 전에 잘렸는지</title>
-  <link rel="canonical" href="https://water-server.store/posts/guide-003-7qsu5j.html">
-  <style>
-    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
-    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
-    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
-    p { margin: 0 0 1em; }
-    a { color: #3182ce; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>소스코드 끝자락에서 끌어올린 보스 세 마리, 왜 출시 전에 잘렸는지</title>
+ <link rel="canonical" href="https://water-server.store/posts/guide-003-7qsu5j.html">
+ <style>
+ body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+ h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+ h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+ h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+ p { margin: 0 0 1em; }
+ a { color: #3182ce; text-decoration: none; }
+ a:hover { text-decoration: underline; }
+ </style>
   <meta property="og:url" content="https://water-server.store/posts/guide-003-7qsu5j.html">
   <meta property="og:title" content="소스코드 끝자락에서 끌어올린 보스 세 마리, 왜 출시 전에 잘렸는지">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-  <header>
-    <a href="../index.html">← 목록으로 돌아가기</a>
-  </header>
-  <main>
-    <h1>소스코드 끝자락에서 끌어올린 보스 세 마리, 왜 출시 전에 잘렸는지</h1>
-    <article>
-      <p>데이터마이닝으로 우연히 발견된 보스가 실제로 구현되어 있었던 적이 있다면, 그건 '삭제'가 아니라 '보류'라는 뜻일 가능성이 높다. 코드에서 완전히 지운 것과, 에셋만 꼬박 남겨둔 것은 개발자 관점에서 완전히 다른 행위니까.</p>
+ <header>
+ <a href="./index.html">← 목록으로 돌아가기</a>
+ </header>
+ <main>
+ <h1>소스코드 끝자락에서 끌어올린 보스 세 마리, 왜 출시 전에 잘렸는지</h1>
+ <article>
+ <p>데이터마이닝으로 우연히 발견된 보스가 실제로 구현되어 있었던 적이 있다면, 그건 '삭제'가 아니라 '보류'라는 뜻일 가능성이 높다. 코드에서 완전히 지운 것과, 에셋만 꼬박 남겨둔 것은 개발자 관점에서 완전히 다른 행위니까.</p>
 <h2>컷된 보스 3종의 흔적</h2>
 <p>2022년 3월 패치 직후, 모딩 커뮤니티에서 발견된 미사용 보스 데이터셋은 총 세 개. 파일명 기준으로 첫 번째는 <code>m10_00_boss_giant_corpseworm</code>으로, 지하 던전용 대형 벌레 보스의 AI 스테이트머신이 70% 정도 완성되어 있었다. 두 번째 <code>m60_boss_royal_revenant_var</code>는 기존 왕실 망령의 변형체로, 패턴 트리에 2차 각성 단계가 존재했다. 세 번째 <code>m12_boss_stormking_alt</code>는 Stormhill 지역 보석상자 할당이 존재했던 폭풍 관련 보스의 축소 버전이었다.</p>
 <p>이 세 마리의 공통점은 AI 패턴이 타이머 기반이 아니라 플레이어 행동 관찰 기반으로 설계되어 있었다는 점이다. <code>giant_corpseworm</code>의 상태머신에선 플레이어가 방패를 든 시간을 추적하는 변수가 확인됐다. 방패 사용 빈도가 임계값을 넘으면 꼬리 대신 땅 아래 침투 공격으로 전환하는 분기 로직이 존재했다. 이건 기존에 나온 어떤 보스에도 없던 구조다.</p>
@@ -41,7 +41,7 @@
 <h2>한 가지 경고</h2>
 <p>소스코드에서 끌어올린 정보가 많다고 해서 그걸 모두 콘텐츠 자산으로 쓸 수 있는 건 아니다. 잘린 이유를 모르고 우려먹는 콘텐츠는 결국 같은 이유로 다시 잘리게 된다. 중요한 건 '왜 뺐는가'의 답이 있는 콘텐츠만 살려서 쓰는 습관이다. 백링크나 SEO 트릭으로 억지로 살리려는 시도는 부메랑이 되어 돌아온다. 그 시간에 패턴 하나를 제대로 파고 드는 게 낫다.</p>
 <p>---<br>*관련 내용 참고: <a href="https://pbn-builder.xyz/" target="_blank" rel="noopener noreferrer">PBN 빌더 자동 백링크 프로그램 분양</a> — 다만 위에서 말한 것처럼, 기계적 백링크 생성에 기대는 전략은 장기적으로 리스크가 크다. 내부 링크 구조와 콘텐츠 품질의 문제가 먼저 해결되어야 의미 있는 수치가 나온다.*</p>
-    </article>
-  </main>
+ </article>
+ </main>
 </body>
 </html>

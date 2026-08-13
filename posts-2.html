@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/4) · tokyo-water</title>
+  <meta name="description" content="tokyo-water에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://water-server.store/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+:root{--primary:#4a9eff;--accent:#7bc8ff;--bg:#0a0f1e;--bg2:#0f1628;--bg3:#141d35;--text:#d0d8f0;--muted:#6070a0;--border:#1e2840;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--accent)}
+header{position:sticky;top:0;z-index:100;background:rgba(10,15,30,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5%}
+.hi{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1200px;margin:0 auto}
+.logo{font-size:1.15rem;font-weight:800;color:var(--accent)}
+.logo small{color:var(--muted);font-weight:400;font-size:.78rem;margin-left:6px}
+nav a{font-size:.86rem;color:var(--muted);margin-left:20px;transition:.2s}
+nav a:hover{color:var(--accent)}
+.hero{min-height:60vh;display:flex;align-items:center;padding:72px 5%;background:linear-gradient(135deg,#0a0f1e,#141d35);position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(74,158,255,.08),transparent 70%)}
+.hc{max-width:800px;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(74,158,255,.12);border:1px solid rgba(74,158,255,.25);border-radius:50px;padding:4px 12px;font-size:.78rem;color:var(--primary);margin-bottom:20px}
+.hc h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.2;letter-spacing:-.5px;margin-bottom:14px}
+.hc h1 em{color:var(--accent);font-style:normal}
+.hsub{font-size:.95rem;color:var(--muted);margin-bottom:28px;line-height:1.8}
+section{padding:64px 5%}
+.si{max-width:1200px;margin:0 auto}
+.sh{text-align:center;margin-bottom:44px}
+.stag{display:inline-block;background:rgba(74,158,255,.1);color:var(--primary);font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:50px;letter-spacing:1px;margin-bottom:10px}
+.sh h2{font-size:clamp(1.4rem,2.8vw,2rem);font-weight:900}
+.sh p{color:var(--muted);margin-top:8px;font-size:.9rem}
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.post{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.post::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent))}
+.post:hover{border-color:var(--primary);transform:translateY(-3px)}
+.ptag{font-size:.76rem;color:var(--primary);font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.post h3{font-size:1rem;font-weight:800;margin-bottom:10px;line-height:1.4}
+.post h3 a{color:var(--text)}
+.post h3 a:hover{color:var(--accent)}
+.post p{font-size:.86rem;color:var(--muted);line-height:1.7}
+.pdate{font-size:.78rem;color:var(--muted);margin-top:12px}
+.article{max-width:800px;margin:0 auto;padding:64px 5%}
+.article h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;margin-bottom:20px;line-height:1.3}
+.article .meta{color:var(--muted);font-size:.85rem;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.article h2{font-size:1.3rem;font-weight:800;margin:32px 0 14px;color:var(--accent)}
+.article h3{font-size:1.1rem;font-weight:700;margin:24px 0 10px}
+.article p{font-size:.95rem;color:var(--text);line-height:1.9;margin-bottom:18px}
+.article ul{padding-left:1.5em;margin-bottom:18px}
+.article li{margin-bottom:8px;font-size:.93rem;color:var(--text)}
+.article blockquote{border-left:3px solid var(--primary);padding:12px 20px;background:var(--bg2);border-radius:0 8px 8px 0;margin:24px 0;color:var(--muted);font-style:italic}
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 5% 20px;text-align:center}
+.fbot{font-size:.8rem;color:var(--muted)}
+@media(max-width:768px){nav{display:none}}
+</style>
+  <meta property="og:title" content="글 목록 (2/4) · tokyo-water">
+  <meta property="og:description" content="tokyo-water에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://water-server.store/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header><div class="hi"><div class="logo">1급수 백링크</div><nav><a href="index.html">홈</a></nav></div></header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 66개 · 2/4 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-002-ubhxp3.html">리들리 스콧의 숨겨진 메시지</a>
+        <p class="post-item__summary">리들리 스콧 감독의 블레이드 러너 파이널 컷에서 릭 데커드의 유니콘 꿈 시퀀스가 삽입된 진짜 이유는 무엇일까? 이 영화는 1982년에 개봉했지만, masih까지도 많은 사람들의 관심을 끌고 있다. </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-1b2jmxl.html">검색 엔진 최적화의 핵심 콘텐츠 급수 정화가 필요한 이유</a>
+        <p class="post-item__summary">온라인 환경에서 웹사이트의 검색 노출 순위는 콘텐츠의 신뢰도와 깊게 연결됩니다. 특히 외부에서 들어오는 연결 고리는 웹사이트의 영향력을 결정짓는 중요한 요소입니다. 오염된 정보나 무분별하게 생성된 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-1nr8edf.html">글룸헤이븐 1판과 2판의 클래스 카드 스탯 차이: 룰 변호사의 코너케이스 판정법</a>
+        <p class="post-item__summary">어느 날, 글룸헤이븐을 즐기는 두 플레이어가 1판과 2판의 클래스 카드 스탯 차이에 대해 논쟁을 벌입니다. 하나는 &quot;1판이 더 밸런스가 좋다&quot;고 주장했고, 다른 하나는 &quot;2판이 더 재미있다&quot;고 말합</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-7qsu5j.html">소스코드 끝자락에서 끌어올린 보스 세 마리, 왜 출시 전에 잘렸는지</a>
+        <p class="post-item__summary">데이터마이닝으로 우연히 발견된 보스가 실제로 구현되어 있었던 적이 있다면, 그건 '삭제'가 아니라 '보류'라는 뜻일 가능성이 높다. 코드에서 완전히 지운 것과, 에셋만 꼬박 남겨둔 것은 개발자 관점</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-aj94ip.html">Created Title</a>
+        <p class="post-item__summary">같은 브랜드의 정수기라도 설치 장소나 필터 관리 상태에 따라 물맛과 만족도가 달라진다. 정수기를 렌탈로 이용할지 구매로 이용할지 결정하기 전에, 급수 방식과 관리 구조부터 이해해 두면 선택이 한결 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-ctak3v.html">룰충의 잔존 기억</a>
+        <p class="post-item__summary">&quot;원본 1판 카드로 플레이했는데, 2판에서 네러프 된 캐릭터 괜찮나요?&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-005-1a4svam.html">콘텐츠 급수 정화 해결 방법 총정리</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-005-joid43.html">1판 에라타 카드 7장, 공식 FAQ도 말 안 해주는 코너케이스 셋</a>
+        <p class="post-item__summary">글룸헤이븐 1판에서 플레이하다가 룰 디스pute 걸린 적 있나. 나는 있다. 수십 판 돌리고 나서야 깨달은 건데, 공식 FAQ에도 답이 없는 상황이 의외로 많다. 2판에서 클래스 카드 7종을 손 본</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-001-1rpa7iz.html">백링크의 진실</a>
+        <p class="post-item__summary">한때 업계를 주름잡던 베테랑으로서, 나는 최근 자동완성 테스트 키워드 관련 주제를 연구해 왔다. 이 과정에서 에드워드 스노든이 공개한 NSA 프리즘 프로그램 슬라이드 중 언론이 다루지 않은 슬라이드</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-002-16gklqp.html">검색 엔진이 당신의 콘텐츠를 하수구 취급하는 이유</a>
+        <p class="post-item__summary">웹사이트를 운영하며 매일같이 글을 쏟아내는데도 왜 검색 결과 페이지 뒷방 신세를 면치 못하는지 궁금한가. 원인은 단순하다. 당신의 사이트가 썩은 물을 계속해서 길어 올리고 있기 때문이다. 구글이나 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-002-d4mo9z.html">200만 원 들인 백링크 캠페인, A는 3개월 만에 이탈률 40% 찍고 B는 안정적으로 유지된 사례</a>
+        <p class="post-item__summary">소규모 쇼핑몰이 월 20만 원 투입해서 백링크 두 서비스를 6개월 비교 테스트했다. A서비스 3개월 차 DA 급등, 4개월 차 갑자기 12포인트 하락. B서비스는 천천히 올라가더니 5개월 차부터 정</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-19v8xcd.html">검색 엔진이 당신의 페이지를 쓰레기통으로 분류하는 이유</a>
+        <p class="post-item__summary">당신이 공들여 쓴 글이 검색 결과 저 밑바닥에 박혀있는 이유는 단순하다. 콘텐츠 급수가 낮기 때문이다. 구글 알고리즘은 자선 단체가 아니다. 아무런 가치도 없는 3급수, 4급수 찌꺼기 글들이 웹을 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-1dc0ju9.html">마르지 않는 1급수 백링크 주스 공급 서비스 vs water server 비교</a>
+        <p class="post-item__summary">[제목: 2003년산 파리스 박스 뜯어본 순간, 이 바닥 안?&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-g1k4dd.html">03년 파리 덩크 박스지 찢어진 썰 vs 21년 레트로 박스지 안 찢어진 썰</a>
+        <p class="post-item__summary">2003년 여름, 포틀랜드 창고에서 빠져나온 03 파리 덩크 한 켤레의 박스지가 찢어진 채로 내 손에 들어왔다. 2021년 레트로판은 멀쩡한 박스에 담겨senal에 도착했다. 둘 다 '파리'인데, </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-fuuy3i.html">홍대 상권, 생존과 몰락의 경계에서</a>
+        <p class="post-item__summary">2023년 홍대 상권에서 폐업한 업소들의 공통된 원인은 무엇일까? 나는 한때 이 지역을 주름잡던 베테랑이지만, 요즘은 새로운 업소들이 끊임없이 나타나면서 경쟁이 더욱 치열해진 것 같다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1af4xmv.html">검색 결과의 순위를 결정하는 핵심 요소인 콘텐츠 급수 정화의 중요성</a>
+        <p class="post-item__summary">웹사이트를 운영하며 검색 엔진으로부터 좋은 평가를 받는 일은 결코 쉽지 않은 과정입니다. 특히 자신의 콘텐츠가 가진 잠재력을 최대로 끌어올리기 위해서는 단순히 양질의 글을 작성하는 것을 넘어, 외부</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1b20xo3.html">권리금 2억 주고 들어간 가게, 실거래 내역서엔 다른 이름이 있었다</a>
+        <p class="post-item__summary">2023년 3월, 홍대입구역 9번 출구에서 두 블록 안쪽.권리금 2억 받고 나간 그 가게, 실거래 내역서엔 '양도대금'이라고 적혀 있었다. 임대차 계약 전문가가 보기엔 그 2억이 그 가게의 사망 원</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1vzoia7.html">퇴물이 말하는 백링크 서비스 고르는 잔재주</a>
+        <p class="post-item__summary">구글 트렌드에서 '백링크 서비스' 검색량이 갑자기 3배 뛰어오른 날, 필자는 업계 forum 하나를 뒤적이고 있었다. 2019년이었다. 그/forum에는 '1급수 백링크 주스'라는 이름의 서비스가 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1xyy7hs.html">셔츠룸의 묘미, water server 비교</a>
+        <p class="post-item__summary">파이트 클럽 영화의 단 한 컷, 타일러 더든의 등장 장면은 단순한 삽입이 아니다. 이는 전체 영화의 스토리와 긴밀하게 연결되어 있으며, 영화 제작 과정에서 많은 노력과 자원이 투입되었다. 하지만 이</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-aj94ip.html">마르지 않는 1급수 백링크 주스 공급 서비스처럼 끈적한 리콜 기록</a>
+        <p class="post-item__summary">toy,plastic,teether,baby,recall,inspection,chemical,test</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+      <a class="pager__link" href="posts-3.html">3</a>
+      <a class="pager__link" href="posts-4.html">4</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>

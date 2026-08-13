@@ -1,28 +1,339 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>백링크 전략 비교: 1급수 백링크와 PBN의 차이점 분석 | Water Server</title>
- <meta name="description" content="다양한 백링크 전략의 핵심 차이점을 비교 분석합니다. 1급수 백링크의 투명한 정화 원칙과 PBN의 위험성을 데이터 기반으로 명확히 제시합니다.">
- <meta name="keywords" content="백링크 비교, PBN, 1급수 백링크, 백링크 대안, SEO 전략, 도메인 권위, 콘텐츠 정화, 링크 빌딩">
- <link rel="canonical" href="https://water-server.store/blog-2.html">
- <!-- Open Graph / Facebook -->
- <meta property="og:type" content="website">
- <meta property="og:url" content="https://water-server.store/blog-2.html">
- <meta property="og:title" content="백링크 전략 비교: 1급수 백링크와 PBN의 차이점 분석 | Water Server">
- <meta property="og:description" content="다양한 백링크 전략의 핵심 차이점을 비교 분석합니다. 1급수 백링크의 투명한 정화 원칙과 PBN의 위험성을 데이터 기반으로 명확히 제시합니다.">
- <meta property="og:image" content="https://water-server.store/og-image.jpg">
- <!-- Twitter -->
- <meta property="twitter:card" content="summary_large_image">
- <meta property="twitter:url" content="https://water-server.store/comparison">
- <meta property="twitter:title" content="백링크 전략 비교: 1급수 백링크와 PBN의 차이점 분석 | Water Server">
- <meta property="twitter:description" content="다양한 백링크 전략의 핵심 차이점을 비교 분석합니다. 1급수 백링크의 투명한 정화 원칙과 PBN의 위험성을 데이터 기반으로 명확히 제시합니다.">
- <meta property="twitter:image" content="https://water-server.store/twitter-image.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>백링크 전략 비교: 1급수 백링크와 PBN의 차이점 분석 | Water Server</title>
+  <meta name="description" content="다양한 백링크 전략의 핵심 차이점을 비교 분석합니다. 1급수 백링크의 투명한 정화 원칙과 PBN의 위험성을 데이터 기반으로 명확히 제시합니다.">
+  <link rel="canonical" href="https://water-server.store/blog-2.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://water-server.store/blog-2.html">
+  <meta property="og:title" content="백링크 전략 비교: 1급수 백링크와 PBN의 차이점 분석 | Water Server">
+  <meta property="og:description" content="다양한 백링크 전략의 핵심 차이점을 비교 분석합니다. 1급수 백링크의 투명한 정화 원칙과 PBN의 위험성을 데이터 기반으로 명확히 제시합니다.">
+  <meta property="og:image" content="https://water-server.store/og-image.jpg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ --bg-white: #ffffff;
+ --bg-light: #f4f8fa;
+ --text-main: #0b131a;
+ --text-muted: #536471;
+ --accent-aqua: #0ea5e9;
+ --accent-deep: #0369a1;
+ --border-thin: 0.5px solid #0b131a;
+ --border-soft: 0.5px solid rgba(11, 19, 26, 0.1);
+ --font-swiss: 'Outfit', 'Inter', sans-serif;
+ --font-kr: 'Noto Sans KR', sans-serif;
+ }
+
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ background-color: var(--bg-white);
+ color: var(--text-main);
+ font-family: var(--font-swiss), var(--font-kr);
+ line-height: 1.7;
+ letter-spacing: -0.02em;
+ }
+
+ .container {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 0 40px;
+ }
+
+ /* Swiss Minimal Grid Line Header */
+ header {
+ border-bottom: var(--border-thin);
+ padding: 30px 0;
+ background: var(--bg-white);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+
+ .nav-wrap {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+ .logo {
+ font-weight: 900;
+ font-size: 1.2rem;
+ letter-spacing: -0.04em;
+ color: var(--text-main);
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ }
+
+ .logo::before {
+ content: '';
+ display: inline-block;
+ width: 12px; height: 12px;
+ background: var(--accent-aqua);
+ border-radius: 50%;
+ }
+
+ nav {
+ display: flex;
+ gap: 40px;
+ }
+
+ nav a {
+ color: var(--text-muted);
+ text-decoration: none;
+ font-size: 0.8rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ transition: color 0.2s;
+ }
+
+ nav a:hover {
+ color: var(--text-main);
+ }
+
+ /* Hero */
+ .hero {
+ padding: 100px 0 60px 0;
+ border-bottom: var(--border-thin);
+ }
+
+ .swiss-code {
+ font-family: monospace;
+ font-size: 0.72rem;
+ color: var(--accent-deep);
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ margin-bottom: 20px;
+ }
+
+ h1 {
+ font-size: clamp(2.2rem, 6vw, 3.6rem);
+ font-weight: 900;
+ line-height: 1.1;
+ letter-spacing: -0.04em;
+ margin-bottom: 30px;
+ }
+
+ h1 span {
+ color: var(--accent-aqua);
+ }
+
+ .hero-meta {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ gap: 50px;
+ margin-top: 40px;
+ }
+
+ .hero-desc {
+ font-size: 0.98rem;
+ color: var(--text-muted);
+ font-weight: 300;
+ }
+
+ .btn-minimal {
+ display: inline-block;
+ border: var(--border-thin);
+ color: var(--text-main);
+ padding: 12px 30px;
+ text-decoration: none;
+ font-size: 0.8rem;
+ font-weight: 600;
+ transition: all 0.3s;
+ text-align: center;
+ }
+
+ .btn-minimal:hover {
+ background: var(--text-main);
+ color: var(--bg-white);
+ }
+
+ /* Stats Grid */
+ .section {
+ padding: 80px 0;
+ border-bottom: var(--border-soft);
+ }
+
+ .section.dark {
+ background-color: var(--bg-light);
+ border-bottom: var(--border-thin);
+ }
+
+ .grid-vitals {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 1px;
+ background-color: rgba(11, 19, 26, 0.1);
+ border: var(--border-soft);
+ margin-top: 40px;
+ }
+
+ .vital-box {
+ background-color: var(--bg-white);
+ padding: 30px;
+ }
+
+ .vital-num {
+ font-size: 2.2rem;
+ font-weight: 900;
+ color: var(--text-main);
+ line-height: 1.1;
+ }
+
+ .vital-title {
+ font-size: 0.7rem;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--text-muted);
+ margin-top: 10px;
+ letter-spacing: 0.05em;
+ }
+
+ /* Process Table */
+ .process-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 40px;
+ }
+
+ .process-table th {
+ text-align: left;
+ font-size: 0.72rem;
+ text-transform: uppercase;
+ font-weight: 700;
+ color: var(--text-muted);
+ padding: 15px 0;
+ border-bottom: 1.5px solid var(--text-main);
+ }
+
+ .process-table td {
+ padding: 20px 0;
+ border-bottom: var(--border-soft);
+ font-size: 0.88rem;
+ }
+
+ .process-title {
+ font-weight: 700;
+ color: var(--text-main);
+ }
+
+ .process-desc {
+ color: var(--text-muted);
+ font-weight: 300;
+ }
+
+ /* Water Dispenser Pricing */
+ .price-grid {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 40px;
+ margin-top: 40px;
+ }
+
+ .price-box {
+ border: var(--border-soft);
+ background: var(--bg-white);
+ padding: 45px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ }
+
+ .price-box.premium {
+ border-color: var(--text-main);
+ }
+
+ .price-header h3 {
+ font-size: 1.3rem;
+ font-weight: 900;
+ margin-bottom: 10px;
+ }
+
+ .price-val {
+ font-size: 2.2rem;
+ font-weight: 900;
+ color: var(--accent-deep);
+ margin-bottom: 25px;
+ }
+
+ .price-list {
+ list-style: none;
+ margin-bottom: 40px;
+ font-size: 0.84rem;
+ color: var(--text-muted);
+ }
+
+ .price-list li {
+ margin-bottom: 10px;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ }
+
+ .price-list li::before {
+ content: '';
+ display: inline-block;
+ width: 5px; height: 5px;
+ background: var(--accent-aqua);
+ border-radius: 50%;
+ }
+
+ /* Footer */
+ footer {
+ padding: 80px 0 50px 0;
+ text-align: left;
+ }
+
+ .footer-grid {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ gap: 80px;
+ border-top: var(--border-soft);
+ padding-top: 40px;
+ }
+
+ .footer-links a {
+ color: var(--text-main);
+ text-decoration: none;
+ font-weight: 700;
+ margin-right: 20px;
+ font-size: 0.75rem;
+ }
+
+ @media (max-width: 768px) {
+ .hero-meta { grid-template-columns: 1fr; gap: 20px; }
+ .grid-vitals { grid-template-columns: 1fr 1fr; }
+ .price-grid { grid-template-columns: 1fr; }
+ .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+ nav { display: none; }
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
- <header class="t-wrap-akmq">
+  <div class="container">
+    <header>
+ <div class="container nav-wrap">
+ <a href="/" class="logo">TOKYO WATER</a>
+ <nav>
+ <a href="#vitals">Vitals</a>
+ <a href="#filtration">Filtration</a>
+ <a href="#dispenser">Dispenser</a>
+ <a href="posts.html">글 목록</a></nav>
+ </div>
+ </header>
+    <main>
+<header class="t-wrap-akmq">
  <div class="k-grid-c0tj-wrapper">
  <nav>
  <ul class="n-list-mgm5 k-grid-c0tj-links">
@@ -40,7 +351,7 @@
  <main class="n-box-c4ro">
  <section class="t-wrap-akmq">
  <h1>백링크 전략 비교: 1급수 백링크와 PBN의 핵심 차이점</h1>
- <p>검색엔진 최적화(SEO)에서 백링크는 웹사이트의 권위와 신뢰도를 구축하는 데 필수적인 요소입니다. 하지만 모든 백링크가 동일한 가치를 가지는 것은 아니며, 잘못된 전략은 오히려 웹사이트에 치명적인 페널티를 안겨줄 수 있습니다. 본 섹션에서는 '마르지 않는 1급수 백링크 주스 공급 서비스'가 추구하는 투명하고 정화된 백링크와 일반적인 'PBN(Private Blog Network)' 방식의 근본적인 차이점을 심층적으로 비교 분석하여, 현명한 백링크 전략 선택을 위한 객관적인 정보를 제공합니다.</p>
+ <p>검색엔진 최적화(SEO)에서 백링크는 웹사이트의 권위와 신뢰도를 구축하는 데 필수적인 요소입니다. 하지만 모든 백링크가 동일한 가치를 가지는 것은 아니며, 잘못된 전략은 오히려 웹사이트에 치명적인 페널티를 안겨줄 수 있습니다. 본 섹션에서는 'water server'가 추구하는 투명하고 정화된 백링크와 일반적인 'PBN(Private Blog Network)' 방식의 근본적인 차이점을 심층적으로 비교 분석하여, 현명한 백링크 전략 선택을 위한 객관적인 정보를 제공합니다.</p>
  </section>
 
  <section class="t-wrap-akmq">
@@ -114,5 +425,7 @@
  </div>
  </section>
  </main>
+    </main>
+  </div>
 </body>
 </html>

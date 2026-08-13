@@ -1,24 +1,342 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>마르지 않는 1급수 백링크 주스 공급 서비스: Transparent Ledger</title>
- <meta name="description" content="마르지 않는 1급수 백링크 주스 공급 서비스의 모든 것을 알려드립니다. 처음 방문자를 위한 조건별 선택 안내부터 최신 정보까지 제공합니다.">
- <meta name="keywords" content="마르지 않는 1급수, 백링크 주스, 공급 서비스">
- <link rel="canonical" href="https://water-server.store/posts/field_note-003-1dbx81b.html">
- <meta property="og:title" content="마르지 않는 1급수 백링크 주스 공급 서비스: Transparent Ledger">
- <meta property="og:description" content="마르지 않는 1급수 백링크 주스 공급 서비스의 모든 것을 알려드립니다. 처음 방문자를 위한 조건별 선택 안내부터 최신 정보까지 제공합니다.">
- <meta property="og:url" content="https://water-server.store/posts/field_note-003-1dbx81b.html">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마르지 않는 1급수 백링크 주스 공급 서비스: Transparent Ledger</title>
+  <meta name="description" content="마르지 않는 1급수 백링크 주스 공급 서비스의 모든 것을 알려드립니다. 처음 방문자를 위한 조건별 선택 안내부터 최신 정보까지 제공합니다.">
+  <link rel="canonical" href="https://water-server.store/posts/field_note-003-1dbx81b.html">
+  <meta property="og:title" content="마르지 않는 1급수 백링크 주스 공급 서비스: Transparent Ledger">
+  <meta property="og:description" content="마르지 않는 1급수 백링크 주스 공급 서비스의 모든 것을 알려드립니다. 처음 방문자를 위한 조건별 선택 안내부터 최신 정보까지 제공합니다.">
+  <meta property="og:url" content="https://water-server.store/posts/field_note-003-1dbx81b.html">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <style>
+ :root {
+ --bg-white: #ffffff;
+ --bg-light: #f4f8fa;
+ --text-main: #0b131a;
+ --text-muted: #536471;
+ --accent-aqua: #0ea5e9;
+ --accent-deep: #0369a1;
+ --border-thin: 0.5px solid #0b131a;
+ --border-soft: 0.5px solid rgba(11, 19, 26, 0.1);
+ --font-swiss: 'Outfit', 'Inter', sans-serif;
+ --font-kr: 'Noto Sans KR', sans-serif;
+ }
+
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ background-color: var(--bg-white);
+ color: var(--text-main);
+ font-family: var(--font-swiss), var(--font-kr);
+ line-height: 1.7;
+ letter-spacing: -0.02em;
+ }
+
+ .container {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 0 40px;
+ }
+
+ /* Swiss Minimal Grid Line Header */
+ header {
+ border-bottom: var(--border-thin);
+ padding: 30px 0;
+ background: var(--bg-white);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+
+ .nav-wrap {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+ .logo {
+ font-weight: 900;
+ font-size: 1.2rem;
+ letter-spacing: -0.04em;
+ color: var(--text-main);
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ }
+
+ .logo::before {
+ content: '';
+ display: inline-block;
+ width: 12px; height: 12px;
+ background: var(--accent-aqua);
+ border-radius: 50%;
+ }
+
+ nav {
+ display: flex;
+ gap: 40px;
+ }
+
+ nav a {
+ color: var(--text-muted);
+ text-decoration: none;
+ font-size: 0.8rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ transition: color 0.2s;
+ }
+
+ nav a:hover {
+ color: var(--text-main);
+ }
+
+ /* Hero */
+ .hero {
+ padding: 100px 0 60px 0;
+ border-bottom: var(--border-thin);
+ }
+
+ .swiss-code {
+ font-family: monospace;
+ font-size: 0.72rem;
+ color: var(--accent-deep);
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ margin-bottom: 20px;
+ }
+
+ h1 {
+ font-size: clamp(2.2rem, 6vw, 3.6rem);
+ font-weight: 900;
+ line-height: 1.1;
+ letter-spacing: -0.04em;
+ margin-bottom: 30px;
+ }
+
+ h1 span {
+ color: var(--accent-aqua);
+ }
+
+ .hero-meta {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ gap: 50px;
+ margin-top: 40px;
+ }
+
+ .hero-desc {
+ font-size: 0.98rem;
+ color: var(--text-muted);
+ font-weight: 300;
+ }
+
+ .btn-minimal {
+ display: inline-block;
+ border: var(--border-thin);
+ color: var(--text-main);
+ padding: 12px 30px;
+ text-decoration: none;
+ font-size: 0.8rem;
+ font-weight: 600;
+ transition: all 0.3s;
+ text-align: center;
+ }
+
+ .btn-minimal:hover {
+ background: var(--text-main);
+ color: var(--bg-white);
+ }
+
+ /* Stats Grid */
+ .section {
+ padding: 80px 0;
+ border-bottom: var(--border-soft);
+ }
+
+ .section.dark {
+ background-color: var(--bg-light);
+ border-bottom: var(--border-thin);
+ }
+
+ .grid-vitals {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 1px;
+ background-color: rgba(11, 19, 26, 0.1);
+ border: var(--border-soft);
+ margin-top: 40px;
+ }
+
+ .vital-box {
+ background-color: var(--bg-white);
+ padding: 30px;
+ }
+
+ .vital-num {
+ font-size: 2.2rem;
+ font-weight: 900;
+ color: var(--text-main);
+ line-height: 1.1;
+ }
+
+ .vital-title {
+ font-size: 0.7rem;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--text-muted);
+ margin-top: 10px;
+ letter-spacing: 0.05em;
+ }
+
+ /* Process Table */
+ .process-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 40px;
+ }
+
+ .process-table th {
+ text-align: left;
+ font-size: 0.72rem;
+ text-transform: uppercase;
+ font-weight: 700;
+ color: var(--text-muted);
+ padding: 15px 0;
+ border-bottom: 1.5px solid var(--text-main);
+ }
+
+ .process-table td {
+ padding: 20px 0;
+ border-bottom: var(--border-soft);
+ font-size: 0.88rem;
+ }
+
+ .process-title {
+ font-weight: 700;
+ color: var(--text-main);
+ }
+
+ .process-desc {
+ color: var(--text-muted);
+ font-weight: 300;
+ }
+
+ /* Water Dispenser Pricing */
+ .price-grid {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 40px;
+ margin-top: 40px;
+ }
+
+ .price-box {
+ border: var(--border-soft);
+ background: var(--bg-white);
+ padding: 45px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ }
+
+ .price-box.premium {
+ border-color: var(--text-main);
+ }
+
+ .price-header h3 {
+ font-size: 1.3rem;
+ font-weight: 900;
+ margin-bottom: 10px;
+ }
+
+ .price-val {
+ font-size: 2.2rem;
+ font-weight: 900;
+ color: var(--accent-deep);
+ margin-bottom: 25px;
+ }
+
+ .price-list {
+ list-style: none;
+ margin-bottom: 40px;
+ font-size: 0.84rem;
+ color: var(--text-muted);
+ }
+
+ .price-list li {
+ margin-bottom: 10px;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ }
+
+ .price-list li::before {
+ content: '';
+ display: inline-block;
+ width: 5px; height: 5px;
+ background: var(--accent-aqua);
+ border-radius: 50%;
+ }
+
+ /* Footer */
+ footer {
+ padding: 80px 0 50px 0;
+ text-align: left;
+ }
+
+ .footer-grid {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ gap: 80px;
+ border-top: var(--border-soft);
+ padding-top: 40px;
+ }
+
+ .footer-links a {
+ color: var(--text-main);
+ text-decoration: none;
+ font-weight: 700;
+ margin-right: 20px;
+ font-size: 0.75rem;
+ }
+
+ @media (max-width: 768px) {
+ .hero-meta { grid-template-columns: 1fr; gap: 20px; }
+ .grid-vitals { grid-template-columns: 1fr 1fr; }
+ .price-grid { grid-template-columns: 1fr; }
+ .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+ nav { display: none; }
+ }
+ </style>
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
- <div class="m-wrap-b27q">
+  <div class="container">
+    <header>
+ <div class="container nav-wrap">
+ <a href="/" class="logo">TOKYO WATER</a>
+ <nav>
+ <a href="#vitals">Vitals</a>
+ <a href="#filtration">Filtration</a>
+ <a href="#dispenser">Dispenser</a>
+ </nav>
+ </div>
+ </header>
+    <main>
+<div class="m-wrap-b27q">
  <div class="r-main-r7fs">
  <div class="m-top-wn01">
- <h1>마르지 않는 1급수 백링크 주스 공급 서비스: Transparent Ledger</h1>
- <p>마르지 않는 1급수 백링크 주스 공급 서비스는 Transparent Ledger라는 이름으로 알려져 있습니다. 이 서비스는 사용자들이 신뢰할 수 있는 1급수 공급 서비스를 제공함으로써, 사용자들의 건강과 행복을 증진시키는 것을 목표로 합니다.</p>
+ <h1>water server: Transparent Ledger</h1>
+ <p>water server는 Transparent Ledger라는 이름으로 알려져 있습니다. 이 서비스는 사용자들이 신뢰할 수 있는 1급수 공급 서비스를 제공함으로써, 사용자들의 건강과 행복을 증진시키는 것을 목표로 합니다.</p>
  <p>Transparent Ledger는 사용자들이 자신이 사용하는 1급수의 출처와 품질을 명확하게 알 수 있도록 합니다. 또한, 서비스는 사용자들의 피드백과 평가를 수집하여, 공급 서비스의 품질을 지속적으로 개선하는 것을 목표로 합니다.</p>
  </div>
  <div class="m-body-c0na">
@@ -41,5 +359,12 @@
  </div>
  </div>
  </div>
+        <nav class="post-pager" aria-label="글 이동">
+      <a class="post-pager__prev" href="../posts/field_note-002-mx68pv.html">← 2024년 백링크 작업할 때 정작 신경 안 쓰는 변수</a>
+      <a class="post-pager__index" href="../posts.html">글 목록</a>
+      <a class="post-pager__next" href="../posts/field_note-003-1jxtqp0.html">03년산 파리 덩크 봉제선 단차, 이걸 모르면 중고거래에서 무조건 당한다 →</a>
+    </nav>
+    </main>
+  </div>
 </body>
 </html>
